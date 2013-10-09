@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="bg_orange">#FF8000</color>
+    <color name="btn_blue">#1c81f3</color>
+    <color name="bg_gray">#BEBEBE</color>
+    
+    <!-- 常用分割线 -->
+    <color name="common_diver_line">#ffE0E0E0</color>
+    <color name="common_bg">#fff4f4f4</color>
+</resources>
