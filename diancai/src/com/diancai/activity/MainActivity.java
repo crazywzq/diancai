@@ -51,19 +51,20 @@ public class MainActivity extends Activity implements OnClickListener{
 						
 						animation2 = new TranslateAnimation(0, 1000, 0, 0); 
 						animation2.reset();
-		                animation2.setInterpolator(new LinearInterpolator());  
-		                animation2.setDuration(500);  
-		                animation2.setFillAfter(true);  
-		                foodname2.startAnimation(animation2);
-		                foodname2.setText(last_foodname);
+						animation2.setInterpolator(new LinearInterpolator());  
+						animation2.setDuration(500);  
+						animation2.setFillAfter(true);  
+						foodname2.startAnimation(animation2);
+						foodname2.setText(last_foodname);
+
 		                
-		                
-						animation1 = new TranslateAnimation(-1000, 0, 0, 0); 
+						animation1 = new TranslateAnimation(-300, 0, 0, 0); 
 						animation1.reset();
 		                animation1.setInterpolator(new LinearInterpolator());  
 		                animation1.setDuration(500);  
 		                animation1.setFillAfter(true); 
 		                foodname1.setText(foodlist.get(0).getName());
+		                foodname1.setVisibility(View.VISIBLE);
 		                foodname1.startAnimation(animation1);	
 		                last_foodname = foodlist.get(0).getName();
 		                
